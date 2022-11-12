@@ -1,0 +1,91 @@
+body{
+  background-image: url('/static/img/human-kidney-cross-section-on-scientific-background.jpg');
+  background-size: cover;
+  background-color: chocolate;
+  //background-image: linear-gradient(deepskyblue,ghostwhite,chocolate);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+table{
+  padding: 30px;
+  font-size: 30px;
+}
+
+.tab{
+  display: inline-block;
+  margin-left: 120px;
+  color: white;
+    
+}
+
+
+.tab2{
+  display: inline-block;
+  margin-left: 300px;
+  color: white;
+    
+}
+
+.tab3{
+  display: inline-block;
+  margin-left: 300px;
+  color: white;
+}
+
+.tab4{
+  width: 250px;
+}
+
+.table-border{
+  padding: auto;
+  border-style:double;
+  //background-color:#2C3333;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-right: 60px;
+
+}
+.alert{
+  color: red;
+  opacity: 2.0;
+}
+
+.submit-button{
+  margin-left: 550px;
+  margin-bottom:50px;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  //border-style: hidden;
+  border-radius: 10px;
+  background-color: blue;
+  color:white;
+  font-size: 20px;
+}
+
+.kutty-table{
+  background-color:#2C3333;
+  margin-left: 30px;
+  margin-right: 20px;
+  opacity: 0.8;
+}
+
+input{
+  //border-radius: 10px;
+  border-style: solid;
+  width: 200px;
+  height: 20px;
+  border-color: green;
+}
+
+select{
+  //border-radius: 10px;
+  border-style: solid;
+  width: 250px;
+  height: 20px;
+  border-color: green;
+}

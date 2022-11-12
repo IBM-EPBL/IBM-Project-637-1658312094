@@ -1,0 +1,75 @@
+.content {
+  
+  background-color: pink;
+  height: 350px;
+  width: 700px;
+  text-align: left;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 1px;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+  margin-top: 30px;
+}
+p {
+  font-size: 20px;
+}
+.p1 {
+  margin-top: 5px;
+}
+.heading {
+  
+  width: 1117px;
+  height: 42px;
+}
+.team_member {
+  background-color: pink;
+  height: 120px;
+  margin-top: 2px;
+  width: 670px;
+  margin-left: 320px;
+  border-radius: 10px;
+  box-shadow: 5px 1px;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+  margin-top: -15px;
+}
+.team_member:hover {
+  transform: scale(1.2);
+}
+.content:hover {
+  transform: scale(1.2);
+}
+.button {
+  
+  width: 50px;
+  height: 20px;
+  margin-left: 1175px;
+  margin-top: -34px;
+}
+#heading1 {
+  margin-left: 139px;
+  border-bottom: 1px solid rgb(119, 13, 13);
+  color: 2px solid rgb(119, 13, 13);
+  background-color: white;
+  opacity: 0.6;
+}
+#btn {
+  height: 35px;
+  width: 74px;
+  margin-top: -6px;
+  background-color: orangered;
+  transition: transform 0.2s;
+  color: white;
+  border-radius: 10px;
+}
+#btn:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}
+body {
+  background-image: url('/static/img/human-kidney-cross-section-on-scientific-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

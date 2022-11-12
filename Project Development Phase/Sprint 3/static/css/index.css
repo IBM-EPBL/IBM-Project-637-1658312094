@@ -1,0 +1,63 @@
+.body {
+  background-image: url('/static/img/human-kidney-cross-section-on-scientific-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.anchor {
+  margin-left: 300px;
+  margin-top: 30px;
+  /* background-color: red;*/
+  text-decoration: none;
+  height: 30px;
+}
+.anchor-content {
+  margin-top: 10px;
+  margin-left: 800px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heading {
+  font-size: 10px;
+  margin-top: 250px;
+  color: black;
+  font-size: 20px;
+
+  font-family: "Times New Roman", Times, serif;
+}
+.anchor1 {
+  text-decoration: none;
+  
+  height:40px;
+  width:80px;
+  background-color:rgb(150, 214, 208);
+  margin-left:-61px;
+  border-radius: 10px ;
+ 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+ 
+.anchor2 {
+  border-radius: 10px ;
+  background-color:rgb(150, 214, 208);
+  text-decoration: none;
+  height:40px;
+  width:80px;
+ 
+ 
+  
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.heading1 {
+  background-color: rgb(207, 113, 196);
+  width: 817px;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#home_link{color:black;text-decoration:none ;font-size:20px;}
+#home_link:hover{color:blue;}
+#predict_link{color:black;text-decoration:none ;font-size:20px;}
+#predict_link:hover{color:blue;}
