@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/predict.css')}}">
+  <title>Table test</title>
+</head>
+<body>
+  <form action='/predict' method="post">
+    <div class ="table-border">
+      <h1 class="alert"><center><b>ENTER THE MEDICAL RECORDS:</b></center></h1>
+
+      <div class="kutty-table">
+
+    <table >
+        <tr>
+<th class='tab'> AGE </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= age required > </th>
+<th class='tab2'> RC </td>
+<th> <input class="tab4" type="number" step="0.01" placeholder="Enter the value" name= rbcc required> </th>
+</tr>
+<tr>
+<th class='tab'> BP </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= bp required > </th>
+<th class='tab2'> POT </td>
+<th> <input class="tab4" type="number" step="0.01" placeholder="Enter the value" name= pot required> </th>
+</tr>
+<tr>
+<th class='tab'> SG </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= sg required > </th>
+<th class='tab2'> 
+  <label for="ba">BA</label> </td>
+<th> 
+
+  <select name="ba" id="ba" required >
+    <option value="">select the option given below </option>
+    <option value=1> present </option>
+    <option value=0> not present </option>
+  </select>
+
+</th>
+
+</tr>
+<tr>
+<th class='tab'> AL </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= al required > </th>
+<th class='tab2'> 
+  <label for="pcc">PCC</label> </td>
+<th> 
+
+  <select name="pcc" id="pcc" >
+    <option value="">select the option given below </option>
+    <option value=1> present </option>
+    <option value=0> not present </option>
+  </select>
+
+</th>
+</tr>
+<tr>
+<th class='tab'> SU </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= su required > </th>
+<th class='tab2'> 
+  <label for="pc">PC</label> </td>
+<th> 
+
+  <select name="pc" id="pc" required >
+    <option value="">select the option given below </option>
+    <option value=1> normal </option>
+    <option value=0> abnormal </option>
+  </select>
+
+</th>
+</tr>
+<tr>
+  <th class='tab'> SOD </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= sod required> </th>
+
+<th class='tab2'> 
+  <label for="rbc">RBC</label> </td>
+<th> 
+
+  <select name="rbc" id="rbc" required >
+    <option value="">select the option given below </option>
+    <option value=1> normal </option>
+    <option value=0> abnormal </option>
+  </select>
+
+</th>
+
+</tr>
+<tr>
+<th class='tab'> WC </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= wbcc required> </th>
+<th class="tab3"> 
+  <label for="htn">HTN</label> </td>
+<th > 
+
+  <select name="htn" id="htn" required >
+    <option value="">select the option given below </option>
+    <option value=1> yes </option>
+    <option value=0> no </option>
+  </select>
+
+</th>
+</tr>
+<tr>
+<th class='tab'> PCV </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= pcv required> </th>
+<th class='tab3'> 
+  <label for="dm">DM</label> </td>
+<th> 
+
+  <select name="dm" id="dm" required >
+    <option value="">select the option given below </option>
+    <option value=1> yes </option>
+    <option value=0> no </option>
+  </select>
+
+</th>
+</tr>
+<tr>
+<th class='tab'> HEMO </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= hemo required> </th>
+<th class='tab3'> 
+  <label for="cad">CAD</label> </td>
+<th> 
+
+  <select name="cad" id="cad" required >
+    <option value="">select the option given below </option>
+    <option value=1> yes </option>
+    <option value=0> no </option>
+  </select>
+
+</th>
+</tr>
+<tr>
+<th class='tab'> BGR </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= bgr required > </th>
+<th class='tab3'> 
+  <label for="appet">APPET</label> </td>
+<th> 
+
+  <select name="appet" id="appet" required >
+    <option value="">select the option given below </option>
+    <option value=1> Good </option>
+    <option value=0> Poor </option>
+  </select>
+
+</th>
+</tr>
+<tr>
+<th class='tab'> BU </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= bu required > </th>
+<th class='tab3'> 
+  <label for="pe">PE</label> </td>
+<th> 
+
+  <select name="pe" id="pe" required >
+    <option value="">select the option given below </option>
+    <option value=1> yes </option>
+    <option value=0> no </option>
+  </select>
+
+</th>
+</tr>
+<tr>
+<th class='tab'> SC </td>
+<th> <input type="number" step="0.01" placeholder="Enter the value" name= sc required > </th>
+<th class='tab3'> 
+  <label for="ane">ANE</label> </td>
+<th> 
+
+  <select name="ane" id="ane" required >
+    <option value="">select the option given below </option>
+    <option value=1> yes </option>
+    <option value=0> no </option>
+  </select>
+
+</th>
+</tr>
+
+    </table>
+
+    <button class="submit-button" type="submit" name="submit">Predict</button> 
+      </div>
+    
+</div>
+  </form>
+</body>
+</html>
+
