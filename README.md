@@ -15,7 +15,7 @@ Chronic kidney Disease can be cured, if treated in the early stages. **The main 
 * KAVIN KUMAR R
 
 ## DEMO LINKS:
-:point_right: [click here](https://drive.google.com/file/d/14ubo7554wJ_6HI81jds3hXVypTj5o5Wb/view?usp=drivesdk) for Google drive 
+:point_right: [click here](https://drive.google.com/file/d/14ubo7554wJ_6HI81jds3hXVypTj5o5Wb/view?usp=drivesdk) __for Google drive__
 
 ## SCREENSHOTS:
 ### INDEX PAGE
